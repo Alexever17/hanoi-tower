@@ -91,6 +91,9 @@ span {
     text-align: center;
     background: #AA8039;
     border: 1px solid white;
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .p1 {

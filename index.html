@@ -31,17 +31,17 @@
             </div>
             <div class="" id="area">
                 <div class="row gamearea wrap" id="gamearea">
-                    <div class="rod r1 column" id="r1">
-                        <span id="p1" class="piece p1">1</span>
-                        <span id="p2" class="piece p2">2</span>
-                        <span id="p3" class="piece p3">3</span>
-                        <span id="p4" class="piece p4">4</span>
-                        <span id="p5" class="piece p5">5</span>
+                    <div class="rod r1 column" id="r1" ondrop="drop(event)" ondragover="allowDrop(event, true)">
+                        <span id="p1" class="piece p1" draggable="true" ondragstart="drag(event)">1</span>
+                        <span id="p2" class="piece p2" draggable="true" ondragstart="drag(event)">2</span>
+                        <span id="p3" class="piece p3" draggable="true" ondragstart="drag(event)">3</span>
+                        <span id="p4" class="piece p4" draggable="true" ondragstart="drag(event)">4</span>
+                        <span id="p5" class="piece p5" draggable="true" ondragstart="drag(event)">5</span>
                     </div>
-                    <div class="rod r2" id="r2">
+                    <div class="rod r2 column" id="r2" ondrop="drop(event)" ondragover="allowDrop(event, true)">
 
                     </div>
-                    <div class="rod r3" id="r3">
+                    <div class="rod r3 column" id="r3" ondrop="drop(event)" ondragover="allowDrop(event, true)">
 
                     </div>
                 </div>
@@ -51,8 +51,6 @@
 
 
 
-        <script type="text/javascript" src="master.js">
-
-        </script>
+        <script type="text/javascript" src="master.js"></script>
     </body>
 </html>
