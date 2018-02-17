@@ -4,6 +4,7 @@ html, body {
   background: #3C3176;
   color: white;
   font-family: "Space Mono", cursive;
+  background: yellow;
 }
 
 header {
@@ -16,36 +17,20 @@ main {
 }
 
 .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .column {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .wrap {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #intro {
@@ -68,6 +53,7 @@ main {
   list-style: none;
   padding: 5px;
 }
+
 #list li {
   padding: 10px;
   text-align: center;
@@ -108,6 +94,7 @@ span {
   background: #AA8039;
   border: 1px solid white;
 }
+
 span:hover {
   cursor: pointer;
 }
@@ -138,6 +125,7 @@ footer {
   color: white;
   text-align: center;
 }
+
 footer a {
   color: white;
 }
@@ -150,3 +138,4 @@ footer a {
     background-position: 0px 27px;
   }
 }
+/*# sourceMappingURL=style.css.map */
